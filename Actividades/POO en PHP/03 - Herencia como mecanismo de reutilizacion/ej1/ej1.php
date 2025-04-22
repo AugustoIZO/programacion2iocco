@@ -17,7 +17,7 @@ class Coche extends Vehiculo {
 		$this->puertas = $puertas;
 	}
 	public function mover() {
-		echo "El coche {$this->marca} con {this->puertas} puertas se mueve rapido.";
+		echo "El coche {$this->marca} con {$this->puertas} puertas se mueve rapido.";
 	}
 }
 
