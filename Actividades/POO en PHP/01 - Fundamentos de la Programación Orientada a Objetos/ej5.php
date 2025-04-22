@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 class Persona {
     public $nombre;
@@ -12,4 +13,20 @@ $p = new Persona();
 $p->nombre = "Santiago";
 $p->edad = 27;
 echo $p->nombre . " es adulto: " . ($p->esAdulto() ? "Si" : "No");
+=======
+<?php
+class Persona {
+    public $nombre;
+    public $edad;
+
+    public function esAdulto() {
+        return $this->edad >= 18;
+    }
+}
+
+$p = new Persona();
+$p->nombre = "Santiago";
+$p->edad = 27;
+echo $p->nombre . " es adulto: " . ($p->esAdulto() ? "Si" : "No");
+>>>>>>> parent of cd47aba (Delete Actividades/POO en PHP directory)
 ?>
