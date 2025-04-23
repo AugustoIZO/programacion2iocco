@@ -17,11 +17,7 @@ class Coche extends Vehiculo {
 		$this->puertas = $puertas;
 	}
 	public function mover() {
-<<<<<<< HEAD
-		echo "El coche {$this->marca} con {this->puertas} puertas se mueve rapido.";
-=======
 		echo "El coche {$this->marca} con {$this->puertas} puertas se mueve rapido.";
->>>>>>> parent of cd47aba (Delete Actividades/POO en PHP directory)
 	}
 }
 
