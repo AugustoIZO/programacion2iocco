@@ -19,5 +19,6 @@ if ($productos) {
         echo "No se encontraron productos con ese nombre.";
     }
 } catch (PDOException $e) {
-    echo "Error al conectar o ejecutar la consulta: " . $e->getMessage();
+    echo "Error de conexión o consulta: " . $e->getMessage();
 }
+?>
