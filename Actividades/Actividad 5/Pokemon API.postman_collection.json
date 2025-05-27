@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "7989db53-67e2-4cef-8674-781993457495",
+		"name": "Pokemon API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45364399",
+		"_collection_link": "https://augusto-959137.postman.co/workspace/Augusto's-Workspace~03a47e9d-f4fc-4867-8854-60431a4c52b4/collection/45364399-7989db53-67e2-4cef-8674-781993457495?action=share&source=collection_link&creator=45364399"
+	},
+	"item": [
+		{
+			"name": "Pokemon",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/pikachu",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"pikachu"
+					]
+				},
+				"description": "Este endpoint devuelve los detalles de un Pokemon especifico."
+			},
+			"response": []
+		},
+		{
+			"name": "Berries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/berry/watmel/",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"berry",
+						"watmel",
+						""
+					]
+				},
+				"description": "Este endpoint devuelve las propiedades del tipo de fruta que elijas."
+			},
+			"response": []
+		},
+		{
+			"name": "Contest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "Este endpoint devuelve el tipo de categoria que los jueces utilizan para evaluar la condición de un Pokemon en los concursos."
+			},
+			"response": []
+		}
+	]
+}
